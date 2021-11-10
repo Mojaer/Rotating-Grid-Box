@@ -1,0 +1,20 @@
+#btns{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: repeat(3,48px);
+    border: 1px solid transparent;
+    grid-column-gap:2px;
+    background-image: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+
+}
+
+div{
+    border: .1px solid rgb(12, 12, 12,.3);
+    background-image: linear-gradient(180deg,rgb(2, 2, 2,.2),white);
+}
+
